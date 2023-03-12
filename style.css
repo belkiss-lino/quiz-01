@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Rampart+One&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'poppins', sans-serif;
+}
+
+body {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    gap: 5px;
+    background: linear-gradient(90deg, rgb(145, 26, 192) 0%, rgb(219, 108, 201) 100%);
+}
+
+body h2 {
+    color: white;
+    font-size: 50px;
+    font-family: 'Rampart One', sans-serif;
+
+}
+
+main {
+    background-color: white;
+    padding: 30px;
+    border-radius: 10px;
+    width: 100%;
+    max-width: 320px;
+    min-height: 200px;
+    display: flex;
+    align-items: center;
+    justify-content: center; 
+    box-shadow: 2px 4px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 20px;
+}
+
+.spnQtd {
+    text-align: end;
+}
+
+.answers {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+}
+
+button {
+    width: 100%;
+    text-align: center;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #008CCC;
+    color: white;
+}
+
+button:hover {
+    background-color: #81d0f5;
+}
+
+.finish {
+    display: none;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.finish button {
+    text-align: center;
+}
